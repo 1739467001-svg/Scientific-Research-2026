@@ -360,4 +360,27 @@ State 的亮眼数字，主要是在 **Cell-Eval** 框架下得出的，而 Cell
 
 ---
 
+## 12. 导师二次分享记录（2026-10-31）
+
+| 项目 | 内容 |
+|---|---|
+| 分享时间 | **2026-10-31 02:23（中国时间）** ／ 原始截图"昨天 18:23"＝ 2026-10-30 18:23（英国时间，GMT +8）⚠️ 凌晨时刻与作息不符，时区待本人确认 |
+| 渠道 | 群聊（AI for Life Science），带 **@所有人** |
+| 内容 | ① Cell 原文链接 + 题目 + "Arc Institute" + **"AIVC milestone"**；② Arc 工具页 `arcinstitute.org/tools/state`；③ "**@所有人 大家定期跟进 Arc Institute 的最新进展**" + `arcinstitute.org` |
+
+**和第一次分享的区别**：09-07 是转发公众号二手解读；这次是**一手原文 + 官网 + 全员指令**，并给出定性评价"AIVC（AI Virtual Cell）里程碑"。分量明显加重。
+
+**"AIVC"出处**：Bunne 等，*How to build the virtual cell with artificial intelligence: Priorities and opportunities*，Cell 2024（arXiv `2409.11654`）。State 被视为里程碑，是因为它是首个以大规模扰动数据为核心、经同行评审发表、代码与权重开源的虚拟细胞模型。
+
+**Arc 近况（截至 2026-10-31，便于后续跟进）**：
+- **Stack**（2026-01-09）：以"细胞作提示词"的基础模型，预训练 1.49 亿细胞、后训练 5,500 万细胞，产出约 2 万种组合的 Perturb Sapiens 预测图谱；**State 2** 开发中。
+- **VCC 2026**：零样本预测 6 个未见细胞系的 CRISPRi 敲低响应；**最终提交截止 2026-11-05 23:59 UTC**，11 月中下旬公布获奖者；奖金 $100k / $50k / $25k。VCC 2025：5,000+ 人报名（114 国），1,200+ 队提交，Altos Labs 团队以 flow-matching 获 Generalist 奖。
+- 跟进入口：`arcinstitute.org/news`、GitHub `ArcInstitute`、bioRxiv。
+
+**待追踪新增**：
+- [ ] VCC 2026 获奖方案（11 月中下旬）——重点看 CRISPRi 零样本上是否有人在 MAE 类指标上赢过平均基线
+- [ ] State 2 发布
+
+---
+
 *本报告由 Claude Code 基于李晓林教授提供的公众号推文整理生成 · 入库时间 2026-09-14*
